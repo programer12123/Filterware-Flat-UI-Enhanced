@@ -1,7 +1,3 @@
-_G.HatFling = true --set to true to enable the usage of hats and false to use your humanoidrootpart ( r15 games with collisons enabled only) 
-_G.CustomUi = true --set to true to be able to use custom uis
-loadstring(game:HttpGet(('http://spiderscript.xyz/scripts/FilterwareV2.txt'),true))()
-
 local Finity = loadstring(game:HttpGet("http://finity.vip/scripts/finity_lib.lua"))()
 
 local FinityWindow = Finity.new(true, "Filterware", true)
