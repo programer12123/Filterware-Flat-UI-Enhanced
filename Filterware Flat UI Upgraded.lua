@@ -277,6 +277,10 @@ MainTab:Cheat("Button", "UpsideDown", function()
     scripts("UpsideDown")
 end, {text = "execute"})    
 
+MainTab:Cheat("Button", "RickRoll", function()
+    scripts("RickRoll")
+end, {text = "execute"})
+		
 MainTab:Cheat("Button", "Rejoin", function()
   local plr = game.Players.LocalPlayer
 		game:GetService("TeleportService"):Teleport(game.PlaceId,plr)
