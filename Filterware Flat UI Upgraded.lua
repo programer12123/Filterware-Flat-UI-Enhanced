@@ -280,6 +280,14 @@ end, {text = "execute"})
 MainTab:Cheat("Button", "RickRoll", function()
     scripts("RickRoll")
 end, {text = "execute"})
+
+MainTab:Cheat("Button", "Infinite", function()
+    scripts("Infinite")
+end, {text = "execute"})
+
+MainTab:Cheat("Button", "Hero", function()
+    scripts("Hero")
+end, {text = "execute"})
 		
 MainTab:Cheat("Button", "Rejoin", function()
   local plr = game.Players.LocalPlayer
