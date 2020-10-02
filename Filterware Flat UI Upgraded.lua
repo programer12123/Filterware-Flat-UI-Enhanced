@@ -3,7 +3,7 @@ local Finity = loadstring(game:HttpGet("https://pastebin.com/raw/xpT46ucU"))()
 local FinityWindow = Finity.new(true, "Filterware", true)
 FinityWindow.ChangeToggleKey(Enum.KeyCode.LeftAlt)
 
---made by 𝓣𝓻𝓾𝓶𝓹 (ALM), LeftAlt is the menu key
+--made by Trump (ALM), LeftAlt is the menu key
 
 local MainCategory = FinityWindow:Category("Scripts")
 
@@ -302,4 +302,4 @@ MainTab:Cheat("Button", "Respawn", function()
     game.Players.LocalPlayer.Character.Humanoid.Health = 0
 end, {text = "execute"})
 	
-MainTab:Cheat("Label", "made by 𝓣𝓻𝓾𝓶𝓹 (ALM)")
+MainTab:Cheat("Label", "made by Trump (ALM)")
