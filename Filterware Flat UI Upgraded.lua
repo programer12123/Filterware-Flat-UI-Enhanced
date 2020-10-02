@@ -288,6 +288,10 @@ end, {text = "execute"})
 MainTab:Cheat("Button", "Hero", function()
     scripts("Hero")
 end, {text = "execute"})
+
+MainTab:Cheat("Button", "Skate", function()
+    scripts("Skate")
+end, {text = "execute"})
 		
 MainTab:Cheat("Button", "Rejoin", function()
   local plr = game.Players.LocalPlayer
@@ -297,10 +301,5 @@ end, {text = "execute"})
 MainTab:Cheat("Button", "Respawn", function()
     game.Players.LocalPlayer.Character.Humanoid.Health = 0
 end, {text = "execute"})
-
-MainTab:Cheat("Button", "Skate", function()
-    scripts("Skate")
-end, {text = "execute"})
 	
-
 MainTab:Cheat("Label", "made by 𝓣𝓻𝓾𝓶𝓹 (ALM)")
